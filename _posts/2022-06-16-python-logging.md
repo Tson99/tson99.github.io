@@ -8,7 +8,7 @@ mới học Python kể cả mình đó chính là sử dụng hàm `print()` đ
 này tôi sẽ chỉ cho các bạn cách để một chương trình vừa chạy vừa có thể ghi log (Dưới dạng file hoặc terminal)
 giúp cho việc theo dõi lịch sử của chương trình rõ ràng hơn.
 
-<img src="assets/images/2022-06-16-python-logging/meme.png" alt="broken meme">
+<img src="../assets/images/2022-06-16-python-logging/meme.png" alt="broken meme">
 
 ## 2. Làm sao sử dụng log trong python?
 Python có thư viện chuẩn hỗ trợ cho ghi log là `logging`. Thư viện viết theo hướng `multithreading` nên
