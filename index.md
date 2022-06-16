@@ -1,6 +1,3 @@
-<html>
-    <head>
-	<meta http-equiv="refresh" content="0; url=/content">
-	<link rel="canonical" href="url=/content" />
-    </head>
-</html>
+---
+title: "Welcome to Tson's blog"
+---
