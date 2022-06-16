@@ -8,7 +8,7 @@ mới học Python kể cả mình đó chính là sử dụng hàm `print()` đ
 này tôi sẽ chỉ cho các bạn cách để một chương trình vừa chạy vừa có thể ghi log (Dưới dạng file hoặc terminal)
 giúp cho việc theo dõi lịch sử của chương trình rõ ràng hơn.
 
-![](meme.png)
+![](./python-logging/meme.png)
 
 ## 2. Làm sao sử dụng log trong python?
 Python có thư viện chuẩn hỗ trợ cho ghi log là `logging`. Thư viện viết theo hướng `multithreading` nên
@@ -30,7 +30,6 @@ giảm nhẹ được khối lượng công việc cho luồng code chính của
 ## 4. Thực hành
 
 ### 4.1. Sử dụng module logging cơ bản
-* File: [log_basic.py](./python-logging/src/log_basic.py)
 ```python
 import logging
 
@@ -59,7 +58,6 @@ if __name__ == '__main__':
     main()
 ```
 ### 4.2. Format logging cho đẹp!
-* File: [log_format.py](./python-logging/src/log_format.py)
 ```python
 import logging
 
@@ -92,7 +90,6 @@ if __name__ == '__main__':
     main()
 ```
 ### 4.3. Ghi log ra file và console
-* File: [log_handles.py](./python-logging/src/log_handles.py)
 ```python
 import logging
 
@@ -127,7 +124,7 @@ logger.info("This is an info message!")
 logger.warning("This is a warning message!")
 ```
 ### 4.4. Logging trong nhiều module
-* File: [log_modules.py](./python-logging/src/log_modules.py)
+*File 1*
 ```python
 import logging
 from Package import module
@@ -141,7 +138,8 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-* File: [module.py](./python-logging/src/Package/module.py)
+
+*File 2*
 ```python
 import logging
 
@@ -150,7 +148,6 @@ def do_something() -> None:
 ```
 
 ### 4.5. Logging trong exception
-* File: [log_exception.py](./python-logging/src/log_exception.py)
 ```python
 import logging
 
@@ -183,22 +180,6 @@ if __name__ == '__main__':
     LOGGER.setLevel(LOG_LEVEL)
     main()
 ```
-## 5. Working tree
-```
-└── python-logging
-    ├── README.md
-    ├── .gitignore
-    └── src
-       ├──Package
-       │  ├── __init__.py
-       │  └── module.py
-       ├── __init__.py
-       ├── log_basic.py
-       ├── log_exception.py
-       ├── log_format.py
-       ├── log_handles.py
-       └── log_modules.py
-```
-## 6. Tài liệu tham khảo
+## 5. Tài liệu tham khảo
 * [Documents python](https://docs.python.org/3/library/logging.html)
 * [Sử dụng logging trong Python](https://cuccode.com/python_logging.html)
