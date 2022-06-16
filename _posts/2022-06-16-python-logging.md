@@ -124,7 +124,7 @@ logger.info("This is an info message!")
 logger.warning("This is a warning message!")
 ```
 ### 4.4. Logging trong nhiều module
-* File 1
+*File 1
 ```python
 import logging
 from Package import module
@@ -138,8 +138,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-
-* File 2
+*File 2
 ```python
 import logging
 
