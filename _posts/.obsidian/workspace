@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "b1e594615d9c6d7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b9b29432f82c956",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e13565afcc74818",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f2eeeae058456cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9357c6b81e7972b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "30319cded4936c82",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31eafdf271ae7e06",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae9b603bd0ec0724",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d3613f738a863fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1b9b29432f82c956",
+  "lastOpenFiles": [
+    "2022-06-16-python-logging.md"
+  ]
+}
